@@ -13,4 +13,4 @@ while jogador!=pc:
     elif pc > jogador:
         jogador = int(input('Um pouco mais, Diga outro numero entre 0 a 10:'))
 
-print(Fore.LIGHTGREEN_EX+'VOCE ACERTOU, E PRECISOU DE',cont,'TENTATIVAS')
+print(f'{Fore.LIGHTGREEN_EX}VOCE ACERTOU, E PRECISOU DE {cont} TENTATIVAS')
